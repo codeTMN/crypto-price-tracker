@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 10%;
+  border-bottom: 0.2rem solid #3c3c3c;
+  color: #ddd;
+}
+
+.navbar .logo {
+  width: max(12vw, 12rem);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: max(1vw, 1.2rem);
+}
+
+.navbar select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.navbar option {
+  background-color: #09005c;
+  color: #fff;
+}
+
+@media (max-width: 90rem) {
+  .navbar {
+    padding: 2rem 8%;
+  }
+}
+
+@media (max-width: 76.8rem) {
+  .navbar {
+    padding: 2rem 5%;
+  }
+}
